@@ -1,34 +1,6 @@
 "use strict";
 
-/*
-Ejercicio_Ajedrez
-Crea un tablero de ajedrez (8x8) colocando sobre él una pieza de cada tipo (total de 6
-piezas) de forma aleatoria y que indique qué piezas pueden comer a qué piezas
-1. El tablero es un array bidimensional de strings o null @type {[[string | null]]}.
-2. Las piezas se encuentran definidas en un array de piezas, las piezas son "T", "C", "A",
-"P", "K", "Q".
-3. Función que imprime el tablero de forma "bonita";.
-4. Colocar las piezas de forma aleatoria.
-5. Recorro el tablero y en función a la pieza que se encuentre, le da las opciones de
-como puede comer a otra pieza y devuelve o bien la lista de las piezas que puede
-comer en el movimiento, o bien que no puede comer a ninguna.
-6. Hacer funciones de las diferentes formas que se pueden comer piezas.
-7. Función que recibe la posición de la pieza a chequear y cómo vamos a moverla.
-*/
-
-/*
-ayuda visual...
-       0     1     2     3     4     5     6     7
-    0 [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]  
-    1 [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]  
-    2 [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]  
-    3 [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]  
-    4 [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]  
-    5 [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]  
-    6 [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]  
-    7 [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ]  
-
-*/
+// EJERCICIO AJEDREZ
 
 // declaracion de tablero
 let tablero = [];
