@@ -3,6 +3,7 @@
 // EJERCICIO AJEDREZ
 
 // declaracion de tablero
+// cambio de archivo
 let tablero = [];
 for(let i=0;i<8;i++){
     tablero.push([]);
